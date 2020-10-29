@@ -53,6 +53,51 @@
             </div>
         </div> 
     </div>
+    
+    <!-- <div class="insta-gallery"> -->
+        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true, "imagesLoaded": true, "percentPosition": false }'>
+    
+            <div class="carousel-cell">
+                <a href="img/9.jpg" class="image-bank">
+                <img src="img/9.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/10.jpg" class="image-bank">
+                <img src="img/10.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/11.jpg" class="image-bank">
+                <img src="img/11.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/12.jpg" class="image-bank">
+                <img src="img/12.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/14.jpg" class="image-bank">
+                <img src="img/14.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/18.jpg" class="image-bank">
+                <img src="img/18.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/15.jpg" class="image-bank">
+                <img src="img/15.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/13.jpg" class="image-bank">
+                <img src="img/13.jpg" alt="">
+            </a></div>
+            <div class="carousel-cell">
+                <a href="img/19.jpg" class="image-bank">
+                <img src="img/19.jpg" alt="">
+            </a></div>
+            
+          </div>
+        </div>
+    <!-- </div> -->
+
 
     <script>
         $(".gallery").magnificPopup({
@@ -63,6 +108,18 @@
             }
         });
     </script>
+    
+    <script>
+        $('.main-carousel').flickity({
+            // options
+            cellAlign: 'left',
+            contain: true
+        });
+    </script>
+    
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
     
 </body>
 </html>
